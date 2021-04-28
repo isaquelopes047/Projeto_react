@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Myheader from './Components/Headers.jsx';
-import ToggleButton from './Components/Button.jsx';
-import Body_app from './Components/Body.jsx';
+import BodyApp from './Components/Body.jsx';
+import FooterPage from './Components/Footer.jsx'
 
 
 class App extends Component {
@@ -11,11 +10,10 @@ class App extends Component {
     return(
       <div className="App">
         <Myheader />
-        <ToggleButton />
-        <Body_app />
+        <BodyApp />
+        <FooterPage />
       </div>
     )
   }
 }
-
 export default App;
