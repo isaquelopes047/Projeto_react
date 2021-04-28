@@ -75,6 +75,7 @@ div.Container_content{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 30px;
 }
 div.Container_content p{
   text-align: center;
